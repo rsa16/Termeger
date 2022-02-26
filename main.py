@@ -14,7 +14,7 @@ border_br = '╯'
 border_h = '─'
 border_v = '│'
 
-host = "localhost"
+host = "10.0.0.67"
 port = 9999
 
 term = Terminal()

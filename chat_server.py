@@ -4,7 +4,7 @@ from threading import Thread
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
-host = "localhost"
+host = "10.0.0.67"
 port = 9999
 
 server.bind((host, port))
